@@ -5,19 +5,17 @@
   flex-direction: column;
   width: 330px;
   align-items: center;
-}
-
-.todolist h1{
-  text-align: center;
-}
-
-.todolist input{
-  border: 1px solid blue;
-  height: 30px;
-  border-radius: 15px;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  margin-right: 15px;
+  h1{
+    text-align: center;
+  }
+  input{
+    border: 1px solid blue;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-right: 15px;
+  }
 }
 
 .list{
