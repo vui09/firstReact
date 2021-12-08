@@ -13,7 +13,9 @@ function App() {
         date={date}
         setDate={setDate}
       />
+
       <Counter />
+
       <TodoList />
     </div>
   );
