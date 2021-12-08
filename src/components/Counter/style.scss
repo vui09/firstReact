@@ -1,0 +1,15 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto 2%;
+  width: 200px;
+  flex-wrap: wrap;
+}
+
+.counterValue{
+  font-size: 50px;
+  margin: 15px;
+  width: 50px;
+  text-align: center;
+}

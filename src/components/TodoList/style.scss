@@ -1,0 +1,32 @@
+.todolist{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 330px;
+  align-items: center;
+}
+
+.todolist h1{
+  text-align: center;
+}
+
+.todolist input{
+  border: 1px solid blue;
+  height: 30px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  margin-right: 15px;
+}
+
+.list{
+  width: 100%;
+  padding: 0 20px;
+  li {
+    padding: 0 0 10px 0;
+  }
+}
+.borderRed {
+  border: 1px solid red !important;
+}
