@@ -7,6 +7,7 @@
   background: rgba(0,0,0,.2);
   display: grid;
   place-content: center;
+
   .modal-content {
     width: 500px;
     height: 200px;
@@ -25,10 +26,12 @@
   height: 30px;
   opacity: 0.3;
 }
+
 .close:hover {
   opacity: 1;
   cursor: pointer;
 }
+
 .close:before, .close:after {
   position: absolute;
   left: 15px;
@@ -37,9 +40,11 @@
   width: 2px;
   background-color: #333;
 }
+
 .close:before {
   transform: rotate(45deg);
 }
+
 .close:after {
   transform: rotate(-45deg);
 }
